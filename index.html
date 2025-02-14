@@ -35,7 +35,7 @@
         <p class="idea-1">Đó là điều anh nghĩ anh sẽ làm</p>
         <p class="idea-2">Nhưng sau đó anh dừng lại</p>
         <p class="idea-3">
-          Anh nhận ra, anh muốn làm điều <strong>đặc biệt</strong>.
+          Anh nhận ra, anh muốn làm điều <strong>đặc biệt</strong> hơn.
         </p>
         <p class="idea-4">Bởi vì,</p>
         <p class="idea-5">
@@ -46,13 +46,6 @@
           <span>VẬY</span>
           <span>NÊN</span>
         </p>
-      </div>
-      <div class="six">
-        <img src="img/vector.jpg" alt="" class = "girl-dp" id="imagePath" />
-        <div class="wish">
-          <h3 class="wish-hbd"></h3>
-          <h5 id="wishText"></h5>
-        </div>
       </div>
       <div class="seven">
         <div class="baloons">
@@ -128,4 +121,10 @@
   <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
   <script type="text/babel" src="script/main.js"></script>
+  <script>
+    // Add redirect after "VẬY NÊN"
+    document.querySelector('.idea-6').addEventListener('animationend', () => {
+      window.location.href = 'https://harryvu176.github.io/vltm';
+    });
+  </script>
 </html>
